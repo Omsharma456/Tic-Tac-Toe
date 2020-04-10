@@ -145,9 +145,9 @@ X wins
 Add additional notes about how to deploy this on a live system
 
 ## Built With
-* Project Initial Source[www.hyperskill.org]-Hyperskills teams Platforms
-* [Intellij Idea] [www.jetbrains.com]-Jetbrains Application Development Software
-* Uploaded in Github (Open Source) (https://github.com/Omsharma456/Tic-Tac-Toe]
+* Project Initial Source -Hyperskills teams Platforms
+* [Intellij Idea] Jetbrains Application Development Software
+* Uploaded in Github (Open Source)
 
 ## Contributing
 There is no any Contributors in this Application.
