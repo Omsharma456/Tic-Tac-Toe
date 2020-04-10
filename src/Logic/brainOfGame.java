@@ -5,6 +5,7 @@ public class brainOfGame {
         while (true) {
             int count1 = 0;
             int count2 = 0;
+            char index = ' ';
         }
     }
 }
