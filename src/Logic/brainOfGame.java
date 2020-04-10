@@ -29,6 +29,7 @@ public class brainOfGame {
                 System.out.print("Enter the coordinates: ");
                 int row = 0;
                 int column = 0;
+                int indexRow = 0;
             }
         }
     }
