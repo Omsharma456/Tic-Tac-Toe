@@ -3,6 +3,8 @@ package Logic;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 public class brainOfGame {
     public static void brain() {
         while (true) {
@@ -117,6 +119,10 @@ public class brainOfGame {
                     }
                 }
                 System.out.println("---------");
+                if (newCells[0][2] != ' ' && newCells[0][2] == newCells[1][1] && newCells[1][1] == newCells[2][0]) {
+                    System.out.println(newCells[0][2] + " wins");
+                    exit(0);
+                }
             }
         }
     }
