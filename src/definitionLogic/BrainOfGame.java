@@ -1,11 +1,11 @@
-package Logic;
+package definitionLogic;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static java.lang.System.exit;
 
-public class brainOfGame {
+public class BrainOfGame {
     public static void brain() {
         while (true) {
             int count1 = 0;
