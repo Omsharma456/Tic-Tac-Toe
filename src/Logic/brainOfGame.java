@@ -7,6 +7,7 @@ public class brainOfGame {
             int count2 = 0;
             char index = ' ';
             char variable = 'X';
+            int countElement = 0;
         }
     }
 }
