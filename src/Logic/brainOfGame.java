@@ -59,6 +59,9 @@ public class brainOfGame {
                 } else if (row == 2 && column == 2) {
                     indexRow = 1;
                     indexColumn = 1;
+                } else if (row == 2 && column == 3) {
+                    indexRow = 0;
+                    indexColumn = 1;
                 }
             }
         }
