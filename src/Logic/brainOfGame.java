@@ -80,6 +80,7 @@ public class brainOfGame {
                     System.out.println("Coordinates should be from 1 to 3!");
                     continue;
                 }
+                System.out.println("---------");
             }
         }
     }
