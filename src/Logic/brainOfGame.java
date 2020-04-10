@@ -132,6 +132,13 @@ public class brainOfGame {
                 count1 = 0;
                 count2 = 0;
                 int count4 = 0;
+                for (int i = 0; i < 3; i++) {
+                    for (int j = 0; j < 3; j++) {
+                        if (newCells[i][j] != ' ') {
+                            count4 += 1;
+                        }
+                    }
+                }
 
             }
         }
