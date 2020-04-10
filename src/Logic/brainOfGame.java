@@ -116,6 +116,7 @@ public class brainOfGame {
                         System.out.println("|");
                     }
                 }
+                System.out.println("---------");
             }
         }
     }
