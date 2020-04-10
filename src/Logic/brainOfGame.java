@@ -6,6 +6,7 @@ public class brainOfGame {
             int count1 = 0;
             int count2 = 0;
             char index = ' ';
+            char variable = 'X';
         }
     }
 }
