@@ -30,6 +30,7 @@ public class brainOfGame {
                 int row = 0;
                 int column = 0;
                 int indexRow = 0;
+                int indexColumn = 0;
             }
         }
     }
