@@ -1,5 +1,6 @@
 package Logic;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class brainOfGame {
@@ -37,6 +38,10 @@ public class brainOfGame {
                         row = sc.nextInt();
                         column = sc.nextInt();
                         validInput = true;
+                    } catch (InputMismatchException e) {
+                        System.out.println("You should enter numbers!");
+                        System.out.print("Enter the coordinates: ");
+                        sc.nextLine();
                     }
                 }
             }
