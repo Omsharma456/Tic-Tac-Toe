@@ -1,5 +1,7 @@
 package Logic;
 
+import java.util.Scanner;
+
 public class brainOfGame {
     public static void brain() {
         while (true) {
@@ -8,6 +10,8 @@ public class brainOfGame {
             char index = ' ';
             char variable = 'X';
             int countElement = 0;
+            Scanner sc = new Scanner(System.in);
+
         }
     }
 }
