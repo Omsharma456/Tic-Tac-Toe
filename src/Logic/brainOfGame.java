@@ -87,6 +87,9 @@ public class brainOfGame {
                         if (newCells[indexRow][indexColumn] == ' ') {
                             newCells[indexRow][indexColumn] = variable;
                         }
+                        if (variable == 'X') {
+                            variable = 'O';
+                        }
                     }
                 }
             }
