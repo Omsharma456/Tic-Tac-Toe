@@ -44,6 +44,10 @@ public class brainOfGame {
                         sc.nextLine();
                     }
                 }
+                if (row == 1 && column == 1) {
+                    indexRow = 2;
+                    indexColumn = 0;
+                }
             }
         }
     }
