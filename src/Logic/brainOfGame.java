@@ -92,6 +92,14 @@ public class brainOfGame {
                                 variable = 'X';
                             }
                         }
+                        if (newCells[i][0] != ' ') {
+                            if (newCells[i][0] == newCells[i][1] && newCells[i][1] == newCells[i][2]) {
+                                count1 += 1;
+                                if (count1 == 3) {
+                                    index = newCells[i][0];
+                                }
+                            }
+                        }
                     }
                 }
             }
