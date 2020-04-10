@@ -122,6 +122,9 @@ public class brainOfGame {
                 if (newCells[0][2] != ' ' && newCells[0][2] == newCells[1][1] && newCells[1][1] == newCells[2][0]) {
                     System.out.println(newCells[0][2] + " wins");
                     exit(0);
+                } else if ((newCells[0][0] != ' ' && newCells[0][0] == newCells[1][1] && newCells[1][1] == newCells[2][2])) {
+                    System.out.println(newCells[0][0] + " wins");
+                    exit(0);
                 }
             }
         }
