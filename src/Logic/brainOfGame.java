@@ -108,6 +108,7 @@ public class brainOfGame {
                                 }
                             }
                         }
+                        System.out.print(newCells[i][j] + " ");
                     }
                 }
             }
