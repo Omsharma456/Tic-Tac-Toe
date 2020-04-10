@@ -89,6 +89,8 @@ public class brainOfGame {
                         }
                         if (variable == 'X') {
                             variable = 'O';
+                        } else {
+                            variable = 'X';
                         }
                     }
                 }
