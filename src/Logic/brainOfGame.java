@@ -81,6 +81,7 @@ public class brainOfGame {
                     continue;
                 }
                 System.out.println("---------");
+                System.out.print("| ");
             }
         }
     }
