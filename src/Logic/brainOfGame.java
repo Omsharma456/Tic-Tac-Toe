@@ -33,6 +33,11 @@ public class brainOfGame {
                 int indexColumn = 0;
                 boolean validInput = false;
                 while (!validInput) {
+                    try {
+                        row = sc.nextInt();
+                        column = sc.nextInt();
+                        validInput = true;
+                    }
                 }
             }
         }
