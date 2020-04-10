@@ -86,11 +86,11 @@ public class brainOfGame {
                     for (int j = 0; j < 3; j++) {
                         if (newCells[indexRow][indexColumn] == ' ') {
                             newCells[indexRow][indexColumn] = variable;
-                        }
-                        if (variable == 'X') {
-                            variable = 'O';
-                        } else {
-                            variable = 'X';
+                            if (variable == 'X') {
+                                variable = 'O';
+                            } else {
+                                variable = 'X';
+                            }
                         }
                     }
                 }
