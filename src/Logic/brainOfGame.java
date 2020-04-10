@@ -100,6 +100,14 @@ public class brainOfGame {
                                 }
                             }
                         }
+                        if (newCells[0][i] != ' ') {
+                            if (newCells[0][i] == newCells[1][i] && newCells[1][i] == newCells[2][i]) {
+                                count2 += 1;
+                                if (count2 == 3) {
+                                    index = newCells[0][i];
+                                }
+                            }
+                        }
                     }
                 }
             }
