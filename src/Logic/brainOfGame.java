@@ -130,6 +130,7 @@ public class brainOfGame {
                     exit(0);
                 }
                 count1 = 0;
+                count2 = 0;
             }
         }
     }
