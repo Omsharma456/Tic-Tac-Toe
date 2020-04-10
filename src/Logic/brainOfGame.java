@@ -139,6 +139,11 @@ public class brainOfGame {
                         }
                     }
                 }
+                if (count4 == 9) {
+                    System.out.println("Draw");
+                    exit(0);
+                    break;
+                }
 
             }
         }
