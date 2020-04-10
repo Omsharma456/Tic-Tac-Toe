@@ -27,6 +27,7 @@ public class brainOfGame {
             System.out.println("---------");
             while (true) {
                 System.out.print("Enter the coordinates: ");
+                int row = 0;
             }
         }
     }
