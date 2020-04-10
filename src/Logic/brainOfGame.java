@@ -31,6 +31,7 @@ public class brainOfGame {
                 int column = 0;
                 int indexRow = 0;
                 int indexColumn = 0;
+                boolean validInput = false;
             }
         }
     }
