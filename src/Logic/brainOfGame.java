@@ -110,6 +110,11 @@ public class brainOfGame {
                         }
                         System.out.print(newCells[i][j] + " ");
                     }
+                    if (i != 2) {
+                        System.out.print("|\n| ");
+                    } else {
+                        System.out.println("|");
+                    }
                 }
             }
         }
