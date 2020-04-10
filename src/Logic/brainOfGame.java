@@ -131,6 +131,8 @@ public class brainOfGame {
                 }
                 count1 = 0;
                 count2 = 0;
+                int count4 = 0;
+
             }
         }
     }
