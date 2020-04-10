@@ -12,6 +12,8 @@ public class brainOfGame {
             int countElement = 0;
             Scanner sc = new Scanner(System.in);
             System.out.println("---------");
+            char[][] newCells = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+
         }
     }
 }
