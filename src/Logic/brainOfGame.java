@@ -11,7 +11,7 @@ public class brainOfGame {
             char variable = 'X';
             int countElement = 0;
             Scanner sc = new Scanner(System.in);
-
+            System.out.println("---------");
         }
     }
 }
