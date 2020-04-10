@@ -72,6 +72,10 @@ public class brainOfGame {
                     indexRow = 0;
                     indexColumn = 2;
                 }
+                if (newCells[indexRow][indexColumn] != ' ') {
+                    System.out.println("This cell is occupied! Choose another one!");
+                    continue;
+                }
             }
         }
     }
