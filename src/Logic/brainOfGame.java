@@ -14,6 +14,18 @@ public class brainOfGame {
             System.out.println("---------");
             char[][] newCells = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
             System.out.print("| ");
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
+                    System.out.print(newCells[i][j] + " ");
+                }
+                if (i != 2) {
+                    System.out.print("|\n| ");
+                } else {
+                    System.out.println("|");
+                }
+            }
+            System.out.println("---------");
+
         }
     }
 }
