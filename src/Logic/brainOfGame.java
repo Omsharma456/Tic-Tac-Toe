@@ -13,7 +13,7 @@ public class brainOfGame {
             Scanner sc = new Scanner(System.in);
             System.out.println("---------");
             char[][] newCells = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
-
+            System.out.print("| ");
         }
     }
 }
