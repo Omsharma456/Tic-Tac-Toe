@@ -129,6 +129,7 @@ public class brainOfGame {
                     System.out.println(index + " wins");
                     exit(0);
                 }
+                count1 = 0;
             }
         }
     }
