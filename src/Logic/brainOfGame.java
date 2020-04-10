@@ -25,7 +25,9 @@ public class brainOfGame {
                 }
             }
             System.out.println("---------");
+            while (true) {
 
+            }
         }
     }
 }
